@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+The Blog
+Um blog moderno e robusto, construído com Next.js 14, projetado para ser rápido, seguro e fácil de gerenciar. Este projeto oferece uma solução completa, com um frontend otimizado para visualização de conteúdo e uma área administrativa intuitiva para a gestão de posts.
 
-## Getting Started
+✨ Principais Funcionalidades
+Frontend Público Dinâmico: Uma experiência de navegação fluida para seus leitores, com visualização de posts e uma página inicial bem estruturada.
 
-First, run the development server:
+Painel Administrativo Seguro: Uma área de login protegida para criar, editar, excluir posts e gerenciar uploads de imagens.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Autenticação JWT: O sistema de login usa JSON Web Tokens (JWT) com expiração configurável, garantindo segurança na administração.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Gerenciamento de Imagens: Suporte para upload de imagens diretamente pelo painel de controle.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Banco de Dados Local: Utiliza SQLite3 em conjunto com Drizzle ORM, ideal para projetos menores e mais simples.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Configuração Descomplicada: Todas as variáveis de ambiente essenciais estão em um arquivo .env.local, facilitando a configuração.
 
-## Learn More
+Pronto para Produção: Inclui documentação detalhada para deploy com Nginx e PM2, garantindo um ambiente seguro e de alta performance.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🛠️ Tecnologias Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Next.js 14: Framework React para construção de aplicações web.
 
-## Deploy on Vercel
+SQLite3: Banco de dados leve e sem servidor.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Drizzle ORM: ORM moderno e type-safe para interagir com o banco de dados.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+JSON Web Tokens (JWT): Padrão de segurança para autenticação.
+
+Nginx: Servidor web utilizado para deploy em produção.
+
+PM2: Gerenciador de processos para aplicações Node.js em produção.
