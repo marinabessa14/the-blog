@@ -2,6 +2,7 @@ The Blog
 Um blog moderno e robusto, construído com Next.js 14, projetado para ser rápido, seguro e fácil de gerenciar. Este projeto oferece uma solução completa, com um frontend otimizado para visualização de conteúdo e uma área administrativa intuitiva para a gestão de posts.
 
 ✨ Principais Funcionalidades
+
 Frontend Público Dinâmico: Uma experiência de navegação fluida para seus leitores, com visualização de posts e uma página inicial bem estruturada.
 
 Painel Administrativo Seguro: Uma área de login protegida para criar, editar, excluir posts e gerenciar uploads de imagens.
